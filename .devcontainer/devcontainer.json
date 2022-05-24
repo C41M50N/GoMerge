@@ -1,0 +1,15 @@
+{
+    "name": "GoMerge Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "golang.go",
+        "bradlc.vscode-tailwindcss"
+    ],
+    "settings": {
+        "go.toolsManagement.checkForUpdates": "local",
+        "go.useLanguageServer": true,
+        "go.gopath": "/go"
+    }
+}
